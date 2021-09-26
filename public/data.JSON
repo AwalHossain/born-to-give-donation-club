@@ -1,0 +1,65 @@
+[
+    {
+       "id":1,
+       "name":"Help small shopkeepers of Sunyani ",
+       "price":353,
+       "country":"Kenya",
+       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg1.jpg"
+    },
+    {
+       "id":2,
+       "name":"Help relocate the refugees",
+       "price":242,
+       "country":"Syria",
+       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg2.jpg"
+    },
+    {
+       "id":3,
+       "name":"Save tigers from poachers",
+       "price":1242,
+       "country":"Bangladesh",
+       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg5.jpg"
+    },
+    {
+       "id":4,
+       "name":"Help rebuild Nepal",
+       "price":2242,
+       "country":"Nepal",
+       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg6.jpg"
+    },
+    {
+       "id":5,
+       "name":"Education for everyone",
+       "price":2242,
+       "country":"Bangladesh",
+       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg3.jpg"
+    },
+    {
+       "id":6,
+       "name":"Save water initiative",
+       "price":2242,
+       "country":"India",
+       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg4.jpg"
+    },
+    {
+       "id":7,
+       "name":"Bring water to the childrens",
+       "price":2242,
+       "country":"Sudan",
+       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg4.jpg"
+    },
+    {
+       "id":8,
+       "name":"Make a better Environment",
+       "price":2242,
+       "country":"India",
+       "img":"https://demo1.imithemes.com/html/born-to-give/images/gallery4.jpg"
+    },
+    {
+       "id":9,
+       "name":"Global Warming",
+       "price":2242,
+       "country":"USA",
+       "img":"https://demo1.imithemes.com/html/born-to-give/images/gallery5.jpg"
+    }
+ ]

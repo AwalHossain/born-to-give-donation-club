@@ -1,0 +1,19 @@
+.product-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border: none;
+
+  background-color: rgb(242, 238, 245);
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border: none;
+  background-color: rgb(242, 238, 245);
+}
+.cart {
+  height: 400px;
+  margin-left: 50px;
+  background-color: #fff;
+}
