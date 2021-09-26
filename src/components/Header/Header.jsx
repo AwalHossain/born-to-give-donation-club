@@ -28,7 +28,9 @@ const Header = () => {
 </div>
 <div className='title-part container'>
         <h1 className='head'>Donate</h1>
+        <h2 className="para-head">This month's approximate target is $1 million.</h2>
         <h3 className='head-bottom'>For a better world</h3>
+        <h3>Let's help to make it up</h3>
         </div>
 </div>
         </div>

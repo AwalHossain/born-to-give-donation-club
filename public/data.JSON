@@ -1,65 +1,122 @@
 [
-    {
-       "id":1,
-       "name":"Help small shopkeepers of Sunyani ",
-       "price":353,
-       "country":"Kenya",
-       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg1.jpg"
-    },
-    {
-       "id":2,
-       "name":"Help relocate the refugees",
-       "price":242,
-       "country":"Syria",
-       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg2.jpg"
-    },
-    {
-       "id":3,
-       "name":"Save tigers from poachers",
-       "price":1242,
-       "country":"Bangladesh",
-       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg5.jpg"
-    },
-    {
-       "id":4,
-       "name":"Help rebuild Nepal",
-       "price":2242,
-       "country":"Nepal",
-       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg6.jpg"
-    },
-    {
-       "id":5,
-       "name":"Education for everyone",
-       "price":2242,
-       "country":"Bangladesh",
-       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg3.jpg"
-    },
-    {
-       "id":6,
-       "name":"Save water initiative",
-       "price":2242,
-       "country":"India",
-       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg4.jpg"
-    },
-    {
-       "id":7,
-       "name":"Bring water to the childrens",
-       "price":2242,
-       "country":"Sudan",
-       "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg4.jpg"
-    },
-    {
-       "id":8,
-       "name":"Make a better Environment",
-       "price":2242,
-       "country":"India",
-       "img":"https://demo1.imithemes.com/html/born-to-give/images/gallery4.jpg"
-    },
-    {
-       "id":9,
-       "name":"Global Warming",
-       "price":2242,
-       "country":"USA",
-       "img":"https://demo1.imithemes.com/html/born-to-give/images/gallery5.jpg"
-    }
- ]
+   {
+      "id":1,
+      "name":"Help small shopkeepers of Sunyani ",
+      "price":353,
+      "country":"Kenya",
+      "description":"The world’s largest baking company delivered cloth masks to small shopkeepers throughout Mexico. Sales associates from the company started this effort last week and recently finished delivering one million masks, which",
+      "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg1.jpg"
+   },
+   {
+      "id":2,
+      "name":"Help relocate the refugees",
+      "price":442,
+      "country":"Syria",
+      "description":"After fleeing to Lebanon to escape the conflict in Syria, Hanan and Ali could not afford to send their young daughters to school and were unable to access the healthcare Ali needed after losing a leg in an explosion back in Syria",
+      "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg2.jpg"
+   },
+   {
+      "id":3,
+      "name":"Save tigers from poachers",
+      "price":442,
+      "country":"Bangladesh",
+      "description":"Say 'NO' to tiger trade by refusing to buy tiger parts and items prepared from tiger derivatives. Speak to tiger and wild ungulate poachers and persuade them to give up poaching. If you know of any information on poaching or trade of illegal wildlife, inform the local law enforcement agencie",
+      "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg5.jpg"
+   },
+   {
+      "id":4,
+      "name":"Help rebuild Nepal",
+      "price":52,
+      "country":"Nepal",
+      "description":"The damage across the country cost Nepal an estimated $10bn (£7.8bn), cutting its already meagre economic output in half. The government subsequently offered hundreds of thousands of homeowners $3,000 (£2,300) each to rebuild their homes",
+      "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg6.jpg"
+   },
+   {
+      "id":5,
+      "name":"Education for everyone",
+      "price":42,
+      "country":"Bangladesh",
+      "description":"The founders of our Republic envisioned education as providing for all citizens the necessary apprenticeship in the understanding and practice of democracy. To make democracy safe we must have universal schooling;",
+      "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg3.jpg"
+   },
+   {
+      "id":6,
+      "name":"Save water initiative",
+      "price":642,
+      "country":"India",
+      "description":"As part of the PwC India Foundation Initiative, an all-India campaign was run to spread awareness of water conservation among Government schools. In Bengaluru, this initiative was organised at the Govt. High School, Kadugodi. Twelve of us volunteered to address around 400 student",
+      "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg4.jpg"
+   },
+   {
+      "id":7,
+      "name":"Bring water to the childrens",
+      "price":142,
+      "country":"Sudan",
+      "description":"These recommendations can vary from child to child. If you're concerned that your child might not be drinking enough water, here are some strategies that might help you encourage them to hydrate.",
+      "img":"https://demo1.imithemes.com/html/born-to-give/images/causeg4.jpg"
+   },
+   {
+      "id":8,
+      "name":"Make a better Environment",
+      "price":242,
+      "country":"India",
+      "description":"Unfortunately, humans have not been very good stewards of the Earth over the years. To protect the environment and preserve the planet for our children and future generations, we all need to take proactive steps toward cleaner living habits.",
+      "img":"https://demo1.imithemes.com/html/born-to-give/images/gallery4.jpg"
+   },
+   {
+      "id":9,
+      "name":"Global Warming",
+      "price":2242,
+      "country":"USA",
+      "description":"Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth's atmosphere.",
+      "img":"https://demo1.imithemes.com/html/born-to-give/images/gallery5.jpg"
+   },
+   {
+      "id":10,
+      "name":"Feed 2500 orphan",
+      "price":1242,
+      "country":"Afghanistan",
+      "description":"September is Defeat Hunger month. For Feed the Children, this month means raising awareness for the crisis of hunger – a crisis that has only been exacerbated by the pandemic these past few months.",
+      "img":"https://wp.efforttech.net/newwp/savelife/wp-content/uploads/2020/10/cause-9.jpg"
+   },
+   {
+      "id":11,
+      "name":"Feeds 125 Children",
+      "price":252,
+      "country":"Syria",
+      "description":"September is Defeat Hunger month. For Feed the Children, this month means raising awareness for the crisis of hunger – a crisis that has only been exacerbated by the pandemic these past few months",
+      "img":"http://www.nicdarkthemes.com/themes/charity/wp/demo/charity-video/wp-content/uploads/sites/5/2017/05/blog-2.jpg"
+   },
+   {
+      "id":12,
+      "name":"Provide 500 Meals",
+      "price":1042,
+      "country":"USA",
+      "description":"For children in Syria who were struggling before the COVID-19 pandemic, things have only gotten worse. After 10 years of conflict and displacement, 12.4 million people, including 6.2 million children, are now struggling to find food.",
+      "img":"http://www.nicdarkthemes.com/themes/charity/wp/demo/charity-video/wp-content/uploads/sites/5/2017/05/blog-1.jpg"
+   },
+   {
+      "id":13,
+      "name":"Feed 800 families",
+      "price":2542,
+      "country":"keyna",
+      "description":"For children in Syria who were struggling before the COVID-19 pandemic, things have only gotten worse. After 10 years of conflict and displacement, 12.4 million people, including 6.2 million children, are now struggling to find food.",
+      "img":"http://wp.efforttech.net/newwp/savelife/wp-content/uploads/2020/10/event-13.jpg"
+   },
+   {
+      "id":14,
+      "name":"Feed 5000 children",
+      "price":2242,
+      "country":"Iraq",
+      "description":"For children in Iraq who were struggling before the COVID-19 pandemic, things have only gotten worse. After 10 years of conflict and displacement, 12.4 million people, including 6.2 million children, are now struggling to find food.",
+      "img":"http://wp.efforttech.net/newwp/savelife/wp-content/uploads/2021/07/image-2.jpg"
+   },
+   {
+      "id":15,
+      "name":"Feed 1000 Children",
+      "price":3042,
+      "country":"Bangladesh",
+      "description":"For children in Bangladesh who were struggling before the COVID-19 pandemic, things have only gotten worse. After 10 years of conflict and displacement, 12.4 million people, including 6.2 million children, are now struggling to find food.",
+      "img":"https://wp.efforttech.net/newwp/savelife/wp-content/uploads/2020/10/cause-8.jpg"
+   }
+]

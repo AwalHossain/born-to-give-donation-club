@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+/* Basic Design  */
 .card-body {
   width: 350px;
-  height: 600px;
   overflow: hidden;
   padding: 10px;
 }
+
 .item-card {
   font-family: "Roboto", sans-serif;
 
@@ -12,7 +13,9 @@
   text-align: center;
   background-color: #fff;
 }
-
+.desc {
+  padding: 5px;
+}
 .item-card:hover {
   transform: translateY(-15px);
   transition: transform 0.3s;
@@ -51,12 +54,14 @@ button:hover {
 }
 .social {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin: 10px 10px;
 }
 .fa-facebook,
 .fa-twitter {
   font-size: 20px;
   opacity: 0.3;
+  margin: 0 5px;
 }
 .fa-facebook:hover {
   opacity: 1;

@@ -9,7 +9,11 @@ const [cart, setCart] = useState([])
 useEffect(()=>{
     fetch('./data.JSON')
     .then(resp => resp.json())
-    .then(data => setInformation(data))
+    .then(data =>{
+        console.log(data)
+        setInformation(data)
+    }
+        )
 },[])
 const handleClick = (data)=>{
     const newCount = [...cart, data];
@@ -19,7 +23,8 @@ const handleClick = (data)=>{
         <div className='product-container my-5'>
             <div className='card '>
             {
-                information.map(data => <Card
+                information.map(data =>
+                    <Card
                     key={data.id}
                     data={data}
                 buttonClick={handleClick}

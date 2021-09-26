@@ -43,6 +43,10 @@
   line-height: 1;
   color: white;
 }
+.para-head {
+  font-size: 40px;
+  font-weight: 400px;
+}
 .head-bottom {
   color: white;
 }
