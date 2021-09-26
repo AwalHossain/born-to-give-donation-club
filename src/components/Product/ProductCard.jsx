@@ -4,8 +4,11 @@ import Cart from '../DonationCart/Cart';
 import './ProductCard.css'
 
 const ProductCard = () => {
+    // This is where all the react hooks i am using in this website
 const [information, setInformation] =useState([]);
 const [cart, setCart] = useState([])
+
+//React hook sideEffect
 useEffect(()=>{
     fetch('./data.JSON')
     .then(resp => resp.json())
@@ -15,10 +18,12 @@ useEffect(()=>{
     }
         )
 },[])
+//This function is givining data and sending data also. So, this is an State which work as props
 const handleClick = (data)=>{
     const newCount = [...cart, data];
     setCart(newCount)
 }
+//Most of the data are going to other component from here. I iterate through the data using array map and then send data as props
     return (
         <div className='product-container my-5'>
             <div className='card '>
