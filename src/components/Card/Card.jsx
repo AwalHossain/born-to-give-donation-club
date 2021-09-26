@@ -3,7 +3,7 @@ import './Card.css'
 
 const Card = (props) => {
     //Destructuring the props
-    const {name, img,country, price, description, accuire} = props.data
+    const {name, img,country, price, description, goal} = props.data
     // Specific Card design 
     return (
         <div className='card-body '>
@@ -17,7 +17,7 @@ const Card = (props) => {
                         <h3  className="fs-5 title mb-0">{name}</h3>
                         <p className="mb-0">{country}</p>
                         <h5 className="donate">Donate: ${price}</h5>
-                        <p>Acuire: ${accuire}</p>
+                        <p>Goal: ${goal}</p>
                         <p className="desc">{description.slice(0, 100)}</p>
                         {/* Button */}
                         <button className='donate-btn mb-3' onClick={()=>{props.buttonClick(props.data)}}><i className="fas fa-hand-holding-usd"></i> Donate</button>

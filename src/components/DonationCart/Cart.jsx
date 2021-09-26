@@ -9,14 +9,12 @@ const Cart = (props) => {
     const info = props.cart
     //iterate through data and find out the quantity
     for(const each of props.cart){
-        console.log(each);
         if(!each.quantity){
             each.quantity=1;
         }
             totalQuantity = totalQuantity + each.quantity; 
             totalMoney = totalMoney + each.price*each.quantity
     }
-    console.log(totalQuantity);
     //Cart Information
     return (
         <div className='cart'>
@@ -24,7 +22,7 @@ const Cart = (props) => {
             <h4 >Total Donation: {totalQuantity}</h4>
             <h4>Total Money:{totalMoney}</h4>
             {
-                info.map(selected => <Info info={selected}></Info>)
+                info.map(selected => <Info key={selected.id} info={selected}></Info>)
             }
         </div>
     );

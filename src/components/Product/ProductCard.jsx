@@ -12,11 +12,7 @@ const [cart, setCart] = useState([])
 useEffect(()=>{
     fetch('./data.JSON')
     .then(resp => resp.json())
-    .then(data =>{
-        console.log(data)
-        setInformation(data)
-    }
-        )
+    .then(data =>   setInformation(data))
 },[])
 //This function is givining data and sending data also. So, this is an State which work as props
 const handleClick = (data)=>{
