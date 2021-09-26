@@ -26,7 +26,7 @@ const handleClick = (data)=>{
                 ></Card> )
             }
             </div>
-            <div className=' ms-3 cart '>
+            <div className='  cart '>
                 <Cart cart={cart}></Cart>
 
             </div>

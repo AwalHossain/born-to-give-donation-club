@@ -1,12 +1,12 @@
 import React from 'react';
-
+import Info from '../DonationInfo/Info';
+import './cart.css'
 
 
 const Cart = (props) => {
     let totalQuantity = 0;
     let totalMoney = 0;
-    let name='';
-    let point = 0;
+    const info = props.cart
     for(const each of props.cart){
         // debugger;
         console.log(each);
@@ -15,15 +15,16 @@ const Cart = (props) => {
         }
             totalQuantity = totalQuantity + each.quantity; 
             totalMoney = totalMoney + each.price*each.quantity
-            point++
-            name +=" " +point+(". ")  + each.name
     }
     console.log(totalQuantity);
     return (
         <div className='cart'>
-            <h2 >Donate Information:</h2><p>{name}</p>
-            <h3>Total Donation: {totalQuantity}</h3>
+            <h2 >Donate Information:</h2>
+            <h3 >Total Donation: {totalQuantity}</h3>
             <h3>Total Money:{totalMoney}</h3>
+            {
+                info.map(selected => <Info info={selected}></Info>)
+            }
         </div>
     );
 };
