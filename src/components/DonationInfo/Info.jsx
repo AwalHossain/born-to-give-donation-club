@@ -2,6 +2,7 @@ import React from 'react';
 import './Info.css'
 const info = (props) => {
     const {name, img} = props.info;
+
     // Selected Name and picture for the cart
     return (
         <div>
