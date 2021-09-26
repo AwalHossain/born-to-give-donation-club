@@ -4,11 +4,13 @@ This website is about charity. You can find lots of charity work here and Our ta
 
 ## Our Main Motive behind this great work
 
-=> This fully non-profitable charity website which help people by raising money
-=>You can donate money different kind of charity event easily
-=> You can create your own charity work by showing us your great motive behind the charity
+#1 This fully non-profitable charity website which help people by raising money
 
-## GitHub Link
+#2 You can donate money different kind of charity event easily
+
+#3 You can create your own charity work by showing us your great motive behind the charity
+
+#4 GitHub Link
 
 https://github.com/ProgrammingHeroWC4/the-superhero-direction-AwalHossain
 
