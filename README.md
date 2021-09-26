@@ -6,7 +6,7 @@ This website is about charity. You can find lots of charity work here and Our ta
 
 ## Our Main Motive behind this great work
 
-#1 This fully non-profitable charity website which help people by raising money
+#1 This is fully non-profitable charity website which help people by raising money
 
 #2 You can donate money in different kind of charity event here easily
 
@@ -23,5 +23,6 @@ https://github.com/ProgrammingHeroWC4/the-superhero-direction-AwalHossain
 
 ## Our Social Meadi
 
-#1.Facebok.com/born-to-give
-#2.twitter.com/born-to-give
+#1 Facebok.com/born-to-give
+
+#2 twitter.com/born-to-give
